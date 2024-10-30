@@ -34,9 +34,9 @@ def download_show(show_number):
         else:
             print(f"{original_filename} already downloaded. Skipping download.")
 
-        # Encode the MP3 to VBR -V6 using ffmpeg
+        # Encode the MP3 to VBR -V8 using ffmpeg
         ffmpeg_command = [
-            "ffmpeg", "-i", original_filename, "-codec:a", "libmp3lame", "-qscale:a", "6", compressed_filename
+            "ffmpeg", "-i", original_filename, "-codec:a", "libmp3lame", "-qscale:a", "8", compressed_filename
         ]
         subprocess.run(ffmpeg_command, check=True)
         print(f"Encoded to VBR -V6 as {compressed_filename}")
