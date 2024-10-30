@@ -39,7 +39,7 @@ def download_show(show_number):
             "ffmpeg", "-i", original_filename, "-codec:a", "libmp3lame", "-qscale:a", "8", compressed_filename
         ]
         subprocess.run(ffmpeg_command, check=True)
-        print(f"Encoded to VBR -V6 as {compressed_filename}")
+        print(f"Encoded to VBR -V8 as {compressed_filename}")
         
         # Delete the original file
         os.remove(original_filename)
