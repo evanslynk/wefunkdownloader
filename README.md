@@ -8,5 +8,11 @@ Just run the script with the show number you'd like to download as an argument.
 ```
 wefunkdlencode.py SHOWNUMBER
 ```
+or without encoding step
+```
+wefunkdl.py SHOWNUMBER
+```
 ## Optional .BAT file
 If you want to download and encode lots of shows, just run the .BAT file. It will ask you for a minimum and maximum show number and it will download and encode all of those shows. It will also check to see if any of those files (converted or original) already exist and it will skip the download step, encode step or both steps and move on to the next show. 
+
+There's two .BAT files to use depending on whether you want to encode or not. 
