@@ -2,6 +2,15 @@
 This python script is used to download and encode shows from Wefunkradio.com
 The original mp3 file downloaded is typically about 200mb so I'm using FFMPEG (which you need to install) to transcode the mp3 down to a VBR -V8 which I found gives the smallest file size (around 100mb per show) without noticably ruining the audio quality. 
 
+# What You Need
+- [Python 3](https://www.python.org/downloads/)
+- [FFMPEG](https://www.ffmpeg.org/download.html) (optional)
+- The requests library 
+Install requests library with
+```
+pip install requests
+```
+
 ## Usage
 Just run the script with the show number you'd like to download as an argument. 
 
