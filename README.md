@@ -5,8 +5,7 @@ The original mp3 file downloaded is typically about 200mb so I'm using FFMPEG (w
 # What You Need
 - [Python 3](https://www.python.org/downloads/)
 - [FFMPEG](https://www.ffmpeg.org/download.html) (optional)
-- The requests library 
-Install requests library with
+- Install requests library with
 ```
 pip install requests
 ```
